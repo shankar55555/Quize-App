@@ -1,0 +1,9 @@
+
+ul.inside_menu {
+    display:none;
+}
+
+
+.frontdivision:hover ul.inside_menu {
+    display:block;
+}

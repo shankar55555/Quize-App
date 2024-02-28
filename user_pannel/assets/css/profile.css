@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgba(224, 220, 220, 0.735);
+}
+
+#buttons {
+    display: flex;
+    justify-content: end;
+    margin-top: -25px;
+    margin-right: 100px;
+ 
+}
+
+#imgdiv {
+    border: 2px solid black;
+    height: 180px;
+    overflow: hidden;
+}
+
+.btn {
+    margin: 0px 20px;
+    padding: 10px 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(204, 152, 253);
+    color: aliceblue;
+}
+
+#user_profile {
+    border: 2px solid black;
+    /* max-width: 20%; */
+    margin: 10px 0px 0px 30px;
+    box-shadow: 9px 15px #959191a7;
+}
+
+#profile_image {
+    display: flex;
+    margin: 10px 0px 20px 0px;
+    justify-content: center;
+}
+
+#user_name {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.details {
+    padding: 0px 10px;
+}
+#an_div{
+border: 2px solid black;
+margin: 10px 30px 0px 30px;
+}
+#an_div h1{
+    text-align: center ;
+}
+.box{
+    border: 2px solid black;
+    height: 30%;
+    margin: 40px 20px;
+}
+.table {
+    border: 2px solid black;
+    font-family: arial, sans-serif;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #table_2 {
+
+    width: 100%;
+    border: 2px solid black;
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
